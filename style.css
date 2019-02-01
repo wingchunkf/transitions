@@ -1,0 +1,47 @@
+body {
+  text-align: center !important;
+}
+
+.rotating-element {  
+  width: 400px;
+  height: 300px; 
+  margin: 100px 0;
+  transition: all ease-out 0.3s; 
+}
+
+button {
+  width: 175px;
+  display: block;
+  padding: 15px;
+  background: white;
+  border: 1px solid gray;
+  color: purple;
+  font-size: 18px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  transition: all ease-out 0.3s;  
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+.title1, .title2, audio {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.title2 {
+  margin-bottom: 2.5rem;
+}
+
+xmp {
+  font-size: 16px;
+}
+
+a {
+  color: purple !important;  
+  font-size: 18px;
+}
+

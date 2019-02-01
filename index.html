@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML element rotations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1 class="title1">Rotating Element</h1>
+
+        <!-- example of how to rotate an element upon button click -->
+
+        <div class="rotating-element mx-auto">
+          <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            style="width: 400px; height: 300px;" class="image" />
+        </div>
+        <button class="trigger mx-auto outline-0">Click Me</button>
+      </div>
+
+      <div class="col-6">
+
+        <!-- example of how to embed audio file into html
+    I created an audio folder, then placed the classicalmusic.mp3
+    file into the folder.-->
+
+        <h1 class="title2">Audio Files</h1>
+
+        <audio controls>
+          <source src="audio/classicalmusic.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+<xmp>
+<audio controls><source src="audio/classicalmusic.mp3" type="audio/mpeg"></audio>
+</xmp>
+
+        <h3 class="my-4">For more information:</h3>
+        <a href="https://www.w3schools.com/HTML/html5_audio.asp">HTML audio tags</a>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
