@@ -45,3 +45,12 @@ a {
   font-size: 18px;
 }
 
+.forkInstructions {
+  margin-top: 100px;
+}
+
+.fork-link:hover, i {
+  text-decoration: none !important;
+  opacity: 0.6;
+}
+
